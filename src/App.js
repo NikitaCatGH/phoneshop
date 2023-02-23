@@ -1,10 +1,11 @@
-
 import React from 'react';
+import MainPage from './components/MainPage';
+import styles from './App.module.scss';
 
 function App() {
   return (
-    <div className="App">
-      <h1>BestShop</h1>
+    <div className={styles.App}>
+      <MainPage />
     </div>
   );
 }
